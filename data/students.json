@@ -1,0 +1,13 @@
+[   {
+        "name": "Elmo",
+        "age" : 2
+    },
+    {
+       "name": "bigBird",
+        "age" : 30
+    },
+    {
+        "name": "kippi",
+        "age" : 12
+    }
+]

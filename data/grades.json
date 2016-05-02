@@ -1,0 +1,13 @@
+[   {
+        "name": "Elmo",
+        "grade" : 90
+    },
+    {
+       "name": "bigBird",
+        "grade" : 86
+    },
+    {
+        "name": "kippi",
+        "grade" : 100
+    }
+]
