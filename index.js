@@ -1,7 +1,5 @@
-//var http = require('http');
 var express = require('express');
 var app = express();
-//var EventEmitter = require('events');
 var port = process.env.PORT || 3000;
 var func = require('./shenkarStudents');
 
