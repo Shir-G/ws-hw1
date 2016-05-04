@@ -1,4 +1,3 @@
-//var students = require("./data/students.json");
 var grades = require("./data/grades.json");
 
 exports.excellentStudents = function(value){
