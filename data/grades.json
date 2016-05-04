@@ -1,13 +1,19 @@
 [   {
         "name": "Elmo",
-        "grade" : 90
+        "grade" : 90,
+        "id" : 100,
+        "age" : 1
     },
     {
        "name": "bigBird",
-        "grade" : 86
+        "grade" : 86,
+        "id" : 101,
+        "age" : 2
     },
     {
         "name": "kippi",
-        "grade" : 100
+        "grade" : 100,
+        "id" : 102,
+        "age" : 3
     }
 ]

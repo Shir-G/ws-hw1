@@ -1,7 +1,7 @@
 //var http = require('http');
 var express = require('express');
 var app = express();
-var EventEmitter = require('events');
+//var EventEmitter = require('events');
 var port = process.env.PORT || 3000;
 var func = require('./shenkarStudents');
 
@@ -21,4 +21,4 @@ app.get('/getStudInfo/:value', function(req,res){
 
 
 app.listen(port);
-console.log("listening on port");
+console.log("listening on port"+port);
