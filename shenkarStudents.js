@@ -1,4 +1,15 @@
-var grades = require("./data/grades.json");
+//var grades = require("./data/grades.json");
+var mongoose = require('mongoose');
+var db = mongoose.connect('stusr:stusr@ds019882.mlab.com:19882/students');
+var grades = require('./studentSchema').Student;
+
+mongoose.connection.once('open', function(){
+    console.log('connected.');      
+    grades.find({}, function(err, studentsDB) {
+        if(err) throw err;
+        grades= studentsDB;
+    });
+});
 
 exports.excellentStudents = function(value){
     var result=[];
@@ -19,5 +30,5 @@ exports.getStudInfo = function(value){
 }
 
 exports.getAllStudents = function(){
-    return(grades);
+    return grades;
 }
